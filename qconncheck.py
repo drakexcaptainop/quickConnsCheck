@@ -1,7 +1,7 @@
 import psutil
 import ipinfo
 
-handler = ipinfo.getHandler("ab207d9e6823e4" )
+handler = ipinfo.getHandler("" )
 def get_ip_info(ip):
     details = handler.getDetails(ip)
     return {
